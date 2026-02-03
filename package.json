@@ -1,0 +1,20 @@
+{
+  "name": "defenseware-test-app",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable dependencies for Defenseware testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",
+    "express": "4.16.0",
+    "minimist": "0.0.8",
+    "axios": "0.21.0"
+  },
+  "devDependencies": {
+    "jquery": "3.4.0"
+  }
+}
+
+
